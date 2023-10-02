@@ -19,7 +19,7 @@ A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Co
 </p>
 
 ## Projeto
-O projeto LinkTree foi feito para reunir diversos links em um único lugar, agregando as informações e assim facilitando o acesso a qualquer tipo de mídia.
+O projeto PetLife se trata de um projeto de construção de site corporativo
 
 ## Tecnologias
 
