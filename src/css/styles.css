@@ -93,30 +93,41 @@ h2 {
   padding: 64px 80px;
 }
 
-.question {
+.duvida {
   position: relative;
 }
 
-.question h3 {
+.duvida h3 {
   border: 2px solid #FF725E;
   border-radius: 8px;
   cursor: pointer;
   padding: 24px;
 }
 
-.question img {
+.duvida img {
   position: absolute;
   top: 32px;
   right: 24px;
 }
 
-.question .paragrafo {
+.duvida .paragrafo {
   border-right: 1px solid #FF725E;
   border-bottom: 1px solid #FF725E;
   border-left: 1PX solid #FF725E;
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+  height: fit-content;
+  opacity: 1;
   padding: 24px;
+
 }
 
 footer {
